@@ -20,7 +20,7 @@
 
 Общий вид виджета должен выглядеть следующим образом:
 
-![](../pic/validator.png)
+![](src/pic/validator.png)
 
 Скриншот взят с сайта http://www.validcreditcardnumber.com.
 
