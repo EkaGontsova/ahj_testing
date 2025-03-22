@@ -1,0 +1,47 @@
+.form {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 600px;
+}
+
+.form__input {
+  flex: 1; 
+  padding: 20px;
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 10px;
+}
+
+.form__button {
+  width: calc((100% - 20px) / 4); 
+  padding: 15px;
+  border: none;
+  color: rgb(14, 82, 34);
+  border-radius: 10px;
+  background-color: #79e79e;
+}
+
+.form__button:focus {
+  background-color: #31f261;
+  color: #1f1d1d;
+}
+
+.form__input_valid {
+  background-color: rgb(217, 254, 123);
+}
+
+.form__input_invalid {
+  background-color: rgb(238, 160, 165);
+}
+
+.form__tooltip {
+  position: absolute;
+  top: 70px;
+  padding: 10px;
+}
+
+.valid {
+  color: black;
+  font-size: 20px;
+}
