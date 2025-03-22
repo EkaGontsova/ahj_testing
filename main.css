@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+button,
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input {
+  font-size: inherit;
+  color: inherit;
+  background-color: #bcbcbc;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active,
+a:focus-visible {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  padding: 50px;
+  background-color: rgb(232, 231, 231);
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  width: 1200px;
+  margin: 50px;
+  padding: 20px;
+}
+  
+.main-title {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(55, 54, 54);
+  }
+  
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cards__item {
+  width: 100px;
+}
+
+.cards__img {
+  width: 100%;
+}
+
+.with-opacity {
+  opacity: 0.1;
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 600px;
+}
+
+.form__input {
+  flex: 1; 
+  padding: 20px;
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 10px;
+}
+
+.form__button {
+  width: calc((100% - 20px) / 4); 
+  padding: 15px;
+  border: none;
+  color: rgb(14, 82, 34);
+  border-radius: 10px;
+  background-color: #79e79e;
+}
+
+.form__button:focus {
+  background-color: #31f261;
+  color: #1f1d1d;
+}
+
+.form__input_valid {
+  background-color: rgb(217, 254, 123);
+}
+
+.form__input_invalid {
+  background-color: rgb(238, 160, 165);
+}
+
+.form__tooltip {
+  position: absolute;
+  top: 70px;
+  padding: 10px;
+}
+
+.valid {
+  color: black;
+  font-size: 20px;
+}
+
